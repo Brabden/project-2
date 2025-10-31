@@ -1,9 +1,7 @@
 const mongoose = require('mongoose');
 const coffeeSchema = new mongoose.Schema ({
     name: String,
-    category: String,
-    quantity: Number,
-    status: String,
+    price: Number,
     inStock : Boolean,
 });
 

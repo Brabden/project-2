@@ -24,6 +24,11 @@ app.get("/", async (req, res) => {
 app.use(express.urlencoded({ extended: false }));
 app.use(methodOverride("_method"));
 
+//Contact Page
+app.get("/contact", async (req, res) => {
+  res.render("contact.ejs");
+});
+
 //Route for a new item in the inventory
 app.get("/coffee/new", (req, res) => {
   res.render("coffee/new.ejs");

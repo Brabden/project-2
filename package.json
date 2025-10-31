@@ -1,11 +1,21 @@
-{
-  "dependencies": {
-    "dotenv": "^17.2.3",
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "method-override": "^3.0.0",
-    "mongoose": "^8.19.2",
-    "morgan": "^1.10.1",
-    "nodemon": "^3.1.10"
-  }
-}
+    {
+      "name": "Project-2",
+      "version": "1.0.0",
+      "description": "",
+      "main": "server.js",
+      "scripts": {
+        "start": "nodemon server.js"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "dependencies": {
+        "dotenv": "^17.2.3",
+        "ejs": "^3.1.10",
+        "express": "^5.1.0",
+        "method-override": "^3.0.0",
+        "mongoose": "^8.19.2",
+        "morgan": "^1.10.1",
+        "nodemon": "^3.1.10"
+      }
+    }
